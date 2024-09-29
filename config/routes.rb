@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "/puppies" => "puppies#index"
   get "/kittens" => "kittens#index"
   get "/piglets" => "piglets#index"
+  get "/fawn" => "fawn#index"
   # Defines the root path route ("/")
   # root "posts#index"
 end
